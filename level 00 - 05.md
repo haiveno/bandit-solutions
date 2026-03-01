@@ -2,7 +2,7 @@
 Solution: ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 # Level 1 -> Level 2
-Solution: cat ./-
+Solution: cat ./-  
 Explanation: We need to use relative path because the command line reads the "-" character as a command option.
 
 # Level 2 -> Level 3
