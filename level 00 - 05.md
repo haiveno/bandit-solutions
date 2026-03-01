@@ -17,8 +17,10 @@ Solution: ```ls -a```
 Explanation: Command ls with -a option shows hidden files.
 
 # Level 4 -> Level 5
-Solution: ```file inhere/*```
-          ```cat inhere/-file07```
+Solution: ```
+          file inhere/*
+          cat inhere/-file07
+          ```
              
 Explanation: First command will print type of data in each file. Only one (-file07) which have "ASCII text" type is readable.
 
